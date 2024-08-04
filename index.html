@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Wei Chen</title>
+
+  <meta name="author" content="Wei Chen">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+  <script type="text/javascript">
+
+    function display(id) {
+      var traget = document.getElementById(id);
+      if (traget.style.display == "none") {
+        traget.style.display = "";
+      } else {
+        traget.style.display = "none";
+      }
+    }  
+  </script>
+</head>
+
+<body>
+  <div id="navbar">
+    <div id="navbar-container">
+      <div id="navtitle">
+        <h1>Wei Chen（陈薇）</h1>
+      </div>
+      <div id="navref">
+        <ul>
+          <li><a href="#bio">About</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#papers">Publications</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="content">
+    <section id="bio">
+      <table class ="tablerow">
+        <tbody>
+          <tr>
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:left">
+                <name>About Me</name>
+                <!-- <img style="max-height:50px;vertical-align: middle;" src="images/chinese_name.png" /> -->
+              </p>
+              <p>I am a Second-year Master student in <a
+                  href="https://english.pku.edu.cn/">Peking University</a>, advised by Prof. Jiangfang Yi. Before that, I received my bachelor degree from <a href="https://en.whu.edu.cn/">Wuhan
+                  University</a> in June 2022.
+              </p>
+              <p>
+                Currently, I am interested in Cache hierarchies, like data prefetching and Cache security. In addition, I am also interested in approximate computing.
+              </p>
+              <p>
+                Outside of research, I enjoy running, swimming and books on literature.
+              </p>
+              <p style="text-align:center">
+                <a href="mailto:chenwei_cs@stu.pku.edu.cn">Email</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?user=qX2qPIIAAAAJ">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://github.com/Ailie-Chen">Github</a> &nbsp/&nbsp
+              </p>
+            </td>
+            <td id="profile">
+              <a href="images/profile.jpeg"><img style="width:100%;max-width:80;border-radius:2%;" alt="profile photo"
+                  src="images/profile.jpeg"></a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <hr>
+    <section id="news">
+      <table class ="tablerow">
+        <tbody>
+          <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>🔥 News</heading>
+              <ul>
+                <li> <b>[Jun. 2024]</b> First Paper accepted to TACO 2024! </li>
+                <li> <b>[Aug. 2022]</b> Arrived Peking University and started my journey in Beijing. </li>
+                <li> <b>[Jun. 2022]</b> Received Bachelor Degree from School of Electrical Information at Wuhan
+                  University.</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <hr>
+    <section id="papers">
+      <table class="tablerow">
+        <tbody>
+          <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>📑 Publications </heading>
+              <!-- <p>
+                (*: Equal contribution)
+              </p> -->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="tablerow paper">
+        <tbody>
+          <tr>
+            <td style="padding:20px;width:67%;vertical-align:middle">
+              <div>
+                <img src="images/hyperion.png" width="600px">
+              </div>
+            </td>
+          </tr>
+          <tr>
+            
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <a>
+                <span class="papertitle">Hyperion: A Highly Effective Page and PC Based Delta Prefetcher</span>
+              </a>
+              <br>
+              Yujie Cui,
+              <a>Wei Chen (first co-author)</a>,
+              Xu Cheng,
+              Jiangfang Yi
+              <br>
+              <em>TACO</em>, 2024
+              <br>
+              <a href="https://github.com/Ailie-chen/Hypeiron">github</a>
+              /
+              <a href="https://dl.acm.org/doi/abs/10.1145/3675398">paper</a>
+              <p></p>
+              <p>
+              Using multi contextual fine-grained contextual information to achieve both high prefetch coverage as well as high prefetch accuracy.
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+    </section>
+    <section id="acknowledge">
+      <table class ="tablerow">
+        <tr>
+          <td style="padding:0px">
+            <br>
+            <p style="text-align:center;font-size:small;">
+              Design and source code from <a style="font-size:small;" href="https://Photooon.github.io">Longwei Zou's</a> websites.
+            </p>
+          </td>
+        </tr>
+      </table>
+    </section>
+  </div>
+</body>
+
+</html>
